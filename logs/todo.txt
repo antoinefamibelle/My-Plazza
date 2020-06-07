@@ -1,0 +1,9 @@
+std::string msg = this->_communication->receiveCommunication(getpid());
+        std::cout << "message : " << msg << std::endl;
+        if (strcmp(msg.c_str(), "bonjour") == 0) {
+            std::cout << "sa a fonctionner" << std::endl;
+            this->_communication->sendCommunication("wesh",getpid());
+        }
+
+
+        verifier les arguements
