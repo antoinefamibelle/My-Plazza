@@ -9,3 +9,4 @@ This project introduce us to those notions in C++ 17:
 
 There is a [BONUS] !!!
 We create a Graphical interface for the project. The graphic is made with Ncurses
+You can launch the project with the -g or -graphics flag
